@@ -3,6 +3,7 @@ import App from "./App";
 import ExampleA from "./tailwind_examples/ExampleA";
 import ExampleB from "./tailwind_examples/ExampleB";
 import ExampleC from "./tailwind_examples/ExampleC";
+import ExampleD from "./tailwind_examples/ExampleD";
 
 
 
@@ -22,5 +23,9 @@ export const router = createBrowserRouter([
     {
       path: "/examplec",
       element: ExampleC(),
+    },
+    {
+      path: "/exampled",
+      element: ExampleD(),
     },
 ]);
