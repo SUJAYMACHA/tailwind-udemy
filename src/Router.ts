@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import ExampleA from "./tailwind_examples/ExampleA";
+import ExampleA from "./tailwind_examples/instapage";
 import ExampleB from "./tailwind_examples/ExampleB";
 import ExampleC from "./tailwind_examples/ExampleC";
 import ExampleD from "./tailwind_examples/ExampleD";
+import instapage from "./tailwind_examples/instapage";
 
 
 
@@ -13,8 +14,8 @@ export const router = createBrowserRouter([
       element: App(),
     },
     {
-        path: "/examplea",
-        element: ExampleA(),
+        path: "/instapage",
+        element: instapage(),
     },
     {
       path: "/exampleb",
