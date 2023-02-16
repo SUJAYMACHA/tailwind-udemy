@@ -9,16 +9,16 @@ const instapage = () => {
           <div className="columns-2 gap-4 m-10 pr-50 pl-50 flex flex-row justify-center ">
             <img src="/images/screenshot4.jpg" className="w-56 h-100" />
             <img src="/images/screenshot1.jpg" className="w-56 h-100" />
-            <div className="third flex flex-col">
-              <div className="border text-black text-center w-80 h-80 flex flex-col items-center m-3  border-black">
+            <div className="third flex flex-none flex-col">
+              <div className="border text-black text-center w-80 h-80 flex flex-col  items-center m-3 border-black">
                 <div className="m-10 italic pl-10 pr-10">INSTAGRAM</div>
                 <div className="box flex flex-col gap-1">
                   <input
-                    className="border border-slate-300"
+                    className="border border-slate-300 "
                     placeholder="username"
                   />
                   <input
-                    className="border border-slate-300"
+                    className="border border-slate-300 "
                     placeholder="password"
                     type="password"
                   />
