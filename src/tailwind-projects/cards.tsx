@@ -33,7 +33,7 @@ const cardsData = [
 const cards = () => {
   return (
     <div className="flex bg-slate-800 min-h-screen justify-center items-center ">
-      <div className="flex flex-row gap-6 justify-between ">
+      <div className="flex flex-row flex-wrap gap-6 justify-center items-center ">
         {cardsData.map((card) => (
           <div className={`border-8 flex items-center flex-col p-5  text-white text-sm rounded-lg ${card.borderColor}`}>
             <div>
