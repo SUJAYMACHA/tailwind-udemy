@@ -5,6 +5,8 @@ const cards = () => {
     
     <div className="flex bg-slate-800 min-h-screen justify-center items-center ">
       <div className="flex flex-row gap-6 justify-between ">
+        
+        
         <div className=" border-8 flex items-center flex-col p-5  text-white text-sm rounded-lg border-slate-700">
           <div className="">
             <div className="p-4">BASIC</div>
