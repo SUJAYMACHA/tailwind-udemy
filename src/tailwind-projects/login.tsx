@@ -1,3 +1,5 @@
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const login = () => {
@@ -24,10 +26,11 @@ const login = () => {
             <div className="flex flex-row gap-8 items-center ">
               <div className="text-cyan-600 ml-2"> Forgot Password </div>
               <div className="flex">
-                <button className="bg-cyan-700 text-white border rounded-lg w-full p-6 pr-12 pl-12 hover:bg-cyan-400 translate-x-6 hover:-translate-y-1 duration-75">
-                  {" "}
-                  Next
+                <button className="flex gap-2 items-center bg-cyan-700 text-white border rounded-lg w-full p-6 pr-12 pl-12 hover:bg-cyan-400 translate-x-6 hover:-translate-y-1 duration-75">
+                  <p>Next</p>
+                  <FontAwesomeIcon icon={faArrowRight} className="text-white w-5" />
                 </button>
+                
               </div>
             </div>
             <div className="p-4 border-t-2 border-gray-300 flex flex-col items-center text-gray-400   ">
