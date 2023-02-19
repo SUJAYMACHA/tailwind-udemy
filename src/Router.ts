@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Emailsubscribe from "./tailwind-projects/Emailsubscribe";
-import ExampleB from "./tailwind-projects/ExampleB";
+import login from "./tailwind-projects/login";
 import cards from "./tailwind-projects/cards";
 import ExampleC from "./tailwind-projects/ExampleC";
 import ExampleD from "./tailwind-projects/ExampleD";
@@ -27,8 +27,8 @@ export const router = createBrowserRouter([
       element: cards(),
   },
     {
-      path: "/exampleb",
-      element: ExampleB(),
+      path: "/login",
+      element: login(),
     },
     {
       path: "/examplec",
