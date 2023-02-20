@@ -59,7 +59,8 @@ const gallery = () => {
             </div>
           </button>
         </div>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-4 items-center">
+          
           <img src="/images/image1.jpg" className="max-w-lg h-48"></img>
           <img src="/images/image2.jpg" className="max-w-lg h-48"></img>
           <img src="/images/image3.jpg" className="max-w-lg h-48"></img>

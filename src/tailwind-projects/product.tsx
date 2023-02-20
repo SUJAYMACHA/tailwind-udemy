@@ -9,12 +9,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const product = () => {
   return (
  
-    <div className=" h-screen ">
-      <div className="flex justify-center mt-24 p-24 mr-16 ml-16 w-auto h-auto ">
+    
+      <div className="flex justify-center mt-24 p-24 mr-16 ml-16 w-auto h-auto flex-wrap ">
         <div className=" flex flex-row p-12 rounded-xl border bg-white shadow-2xl">
           <div className="bg-white flex flex-row gap-4 mt-4 ">
+          
             <img src="/images/headphone.png" className=" w-72 h-60 "></img>
           </div>
+         
           <div className="flex flex-col p-4 ">
             <div className="bg-black rounded-xl text-white w-28 flex justify-center">
               {" "}
@@ -61,10 +63,11 @@ const product = () => {
                 </div>
               </button>
             </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+    
+    
     
   );
 };
