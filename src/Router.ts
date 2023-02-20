@@ -6,6 +6,7 @@ import cards from "./tailwind-projects/cards";
 import ExampleC from "./tailwind-projects/ExampleC";
 import ExampleD from "./tailwind-projects/ExampleD";
 import instapage from "./tailwind-projects/instapage";
+import vishalcard from "./tailwind-projects/vishalcard";
 
 
 
@@ -17,6 +18,13 @@ export const router = createBrowserRouter([
     {
       path: "/Email",
       element: Emailsubscribe(),
+    },
+    {
+      path: "/Email",
+      element: Emailsubscribe(),
+    },{
+      path: "/vishalcard",
+      element: vishalcard(),
     },
     {
         path: "/instapage",
