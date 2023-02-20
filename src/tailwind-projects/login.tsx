@@ -1,4 +1,4 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -57,6 +57,7 @@ const login = () => {
           </div>
           <div className="flex">
             <img src="/images/water.jpg" className="h-102 w-96"></img>
+            <FontAwesomeIcon icon={faCircleXmark} className="text-black w-5" />
           </div>
           
         </div>
