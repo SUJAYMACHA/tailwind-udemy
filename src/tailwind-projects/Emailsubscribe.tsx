@@ -36,7 +36,7 @@ const Emailsubscribe = () => {
                   placeholder="Enter your email address "
                 />
                 <button className="bg-lime-400 rounded-lg p-3 text-black hover:bg-lime-900 hover:text-white duration-500 text-sm">
-                  Subscribe
+                  Subscribe...
                 </button>
               </div>
             </div>
