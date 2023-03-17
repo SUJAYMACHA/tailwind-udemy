@@ -37,7 +37,7 @@ const template = () => {
               7 settembre- 9 dicembre
             </div>
           </div>
-          <img src="/images/loc.jpeg" className="h-10 w-8" />
+          <img src="/images/loc.jpeg"  className="h-10 w-8" />
           <div className="text-white font-bold text-lg">
             <div>italia:</div>
             <div>svizzera</div>
