@@ -52,7 +52,7 @@ const gallery = () => {
           </div>
           <button>
             <div className=" translate-x-80  ">
-              <div className="bg-black text-white hover:bg-white hover:text-black hover:border-black hover:border rounded-lg p-4 w-44">
+              <div className="bg-[#111b21] text-white hover:bg-[#25d366] hover:text-black hover:border-black  rounded-lg p-4 w-44">
                 {" "}
                 upload
               </div>{" "}
