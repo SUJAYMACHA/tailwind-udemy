@@ -24,7 +24,7 @@ const template = () => {
           </span>
 
           <img
-            src="/images/whales.jpg"
+            src="/images/whales.jpg"  
             className="h-48 w-96 object-cover shadow-sm shadow-sky-400 rounded-t-lg"
           />
         </div>
