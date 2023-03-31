@@ -12,7 +12,7 @@ export const Fifthcontent = () => {
           An enterprise template to ramp{" "}
         </div>
         <div className=" font-Manrope text-5xl text-white">
-          up your company website
+          up your company website.
         </div>
       </div>
       <div className="flex justify-center items-center -translate-y-48 gap-8">
