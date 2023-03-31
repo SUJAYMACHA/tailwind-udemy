@@ -10,6 +10,7 @@ import card from "./tailwind-projects/card"
 import PricingCard from "./tailwind-projects/card";
 import tempalte from "./tailwind-projects/template";
 import whatsappweb from "./tailwind-projects/whatsappweb";
+import Homepage from "./tailwind-projects/Homepage";
 
 
 
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
     {
       path: "/",
       element: App(),
+    },
+    {
+      path: "/homepage",
+      element: Homepage(),
     },
     {
       path: "/download",

@@ -15,10 +15,11 @@ export const Header = () => {
           className=" md:w-44 md:p-4 md:translate-x-4 translate-x-36 w-36"
         ></img>
 
-        <FontAwesomeIcon
+ <FontAwesomeIcon
           icon={faArrowDown}
-          className=" translate-x-80 -translate-y-8 rounded-full bg-[#25d366] p-2 pl-3 pr-3 md:hidden "
+          className="  rounded-full text-black"
         />
+       
       </button>
 
       <div className=" md:gap-36 md:flex md:flex-row  md:items-center md:p-2 border-b b-[#cec9c1] font-normal     ">
