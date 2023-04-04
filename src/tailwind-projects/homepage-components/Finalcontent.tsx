@@ -1,7 +1,7 @@
 export const Finalcontent = () => {
   return (
-    <div className=" p-8 text-black w-full flex justify-start gap-72 ">
-      <div className="flex flex-col gap-8  translate-x-16 ">
+    <div className=" p-8 text-black w-full flex justify-start gap-96  ">
+      <div className="flex flex-col gap-8  translate-x-36 ">
         <div className="flex flex-row gap-1 ">
           <div className="flex flex-col gap-1 ">
             <div className="bg-[#0A2640] flex justify-start items-center rounded-r-full w-8  text-[#0A2640]  ">

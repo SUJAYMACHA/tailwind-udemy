@@ -12,28 +12,23 @@ export const Fourthcontent = () => {
 
       <div className="flex flex-row gap-24">
         <img src="textt.png" className="" />
-        <div className=" flex flex-col gap-8  p-4">
-          <div className="flex flex-row gap-2">
-            <img
-              src="text2.jpg"
-              className=" w-96 h-14 border-b-2 p-4 border-[#C4C4C4] "
-            />
-            <div className="bg-[#0A2640] h-7 w-7 rounded-full translate-y-4 border-b-2 border-[#C4C4C4]"></div>
+        <div className=" flex flex-col gap-12  p-4">
+          <div className="flex flex-row gap-4">
+            <div className="text-xl underline underline-offset-8 decoration-[#C4C4C4]"> We connect our customers with the best?</div>
+  
+            <div className="bg-[#0A2640] h-7 w-7 rounded-full translate-y-0.5 border-b-2 border-[#C4C4C4]"></div>
             <FontAwesomeIcon
               icon={faArrowDown}
-              className="  rounded-full text-white -translate-x-7 relative translate-y-5 top-0.5   "
+              className="  rounded-full text-white -translate-x-9 relative translate-y-2   "
             />
           </div>
 
-          <div className="flex flex-row gap-2">
-            <img
-              src="text3.png"
-              className=" w-96 h-14 border-b-2 p-4 border-[#C4C4C4] "
-            />
-            <div className="bg-[#0A2640] h-7 w-7 rounded-full translate-y-4"></div>
+          <div className="flex flex-row gap-4">
+          <div className="text-xl underline underline-offset-8 decoration-[#C4C4C4]" >Android research & development rockstar? </div>
+            <div className="bg-[#0A2640] h-7 w-7 rounded-full "></div>
             <FontAwesomeIcon
               icon={faArrowDown}
-              className="  rounded-full text-white -translate-x-7 relative translate-y-5 top-0.5   "
+              className="  rounded-full text-white -translate-x-9 relative top-1.5   "
             />
           </div>
         </div>

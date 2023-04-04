@@ -1,11 +1,11 @@
 import React from "react";
-import { Headerone } from "./projectone-components/Headerone";
-import { Firstcontent } from "./projectone-components/Firstcontent";
-import { Secondcontent } from "./projectone-components/Secondcontent";
-import { Thirdcontent } from "./projectone-components/Thirdcontent";
-import { Fourthcontent } from "./projectone-components/Fourthcontent";
-import { Fifthcontent } from "./projectone-components/Fifthcontent";
-import { Finalcontent } from "./projectone-components/Finalcontent";
+import { Headerone } from "./homepage-components/Headerone";
+import { Firstcontent } from "./homepage-components/Firstcontent";
+import { Secondcontent } from "./homepage-components/Secondcontent";
+import { Thirdcontent } from "./homepage-components/Thirdcontent";
+import { Fourthcontent } from "./homepage-components/Fourthcontent";
+import { Fifthcontent } from "./homepage-components/Fifthcontent";
+import { Finalcontent } from "./homepage-components/Finalcontent";
 
 const Homepage = () => {
   return (
