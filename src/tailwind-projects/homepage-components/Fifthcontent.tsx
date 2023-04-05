@@ -1,6 +1,7 @@
 export const Fifthcontent = () => {
   return (
-    <div className="text-black border-2 bg-[#0A2640] border-black p-8 -translate-y-24 w-4/5 translate-x-36  rounded-lg h-96  ">
+  
+    <div className="text-black border-2 bg-[#0A2640] border-black p-8 -translate-y-24 w-4/5 translate-x-36   rounded-lg h-96   ">
       <div className="flex justify-end">
         <img
           src="./Ellipse 9.png"
@@ -8,7 +9,7 @@ export const Fifthcontent = () => {
         />
       </div>
       <div className=" -translate-y-60 flex justify-center flex-col items-center">
-        <div className=" font-Manrope text-5xl text-white">
+        <div className=" font-Manrope text-5xl text-white"> 
           An enterprise template to ramp{" "}
         </div>
         <div className=" font-Manrope text-5xl text-white">
@@ -27,5 +28,6 @@ export const Fifthcontent = () => {
         </button>
       </div>
     </div>
+    
   );
 };
