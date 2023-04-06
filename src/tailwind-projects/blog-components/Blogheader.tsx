@@ -9,7 +9,7 @@ export const Blogheader = () => {
 
 
 
-      <div className="flex flex-row gap-1 translate-x-12">
+      <div className="flex flex-row gap-1 translate-x-8">
         <div className="flex flex-col gap-1 ">
           <div className="bg-[#0A2640] flex justify-start items-center rounded-r-full w-8  text-[#0A2640] ">
             h

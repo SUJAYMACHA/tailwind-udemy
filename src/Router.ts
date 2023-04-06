@@ -12,6 +12,7 @@ import tempalte from "./tailwind-projects/template";
 import whatsappweb from "./tailwind-projects/whatsappweb";
 import Homepage from "./tailwind-projects/Homepage";
 import blog from "./tailwind-projects/blog"
+import About from "./tailwind-projects/About";
 
 
 
@@ -19,6 +20,10 @@ export const router = createBrowserRouter([
     {
       path: "/",
       element: App(),
+    },
+    {
+      path: "/about",
+      element: About(),
     },
     {
       path: "/blog",
