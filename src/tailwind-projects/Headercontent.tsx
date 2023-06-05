@@ -1,4 +1,5 @@
-import { HeaderLogo } from "../common-components/HeaderLogo";
+import { HeaderLogo } from "./common-components/HeaderLogo";
+
 
 <link
   href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap"

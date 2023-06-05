@@ -3,14 +3,18 @@ import { Blogheader } from "./blog-components/Blogheader";
 import { Blogfirstcontent } from "./blog-components/Blogfirstcontent";
 import { Blogsecondcontent } from "./blog-components/Blogsecondcontent";
 
-const blog = () => {
+
+const Blog = () => {
+  const buttons = ['sujay','adarsh']
   return (
     <div>
-      <Blogheader></Blogheader>
-      <Blogfirstcontent></Blogfirstcontent>
-      <Blogsecondcontent></Blogsecondcontent>
+    <Blogheader/>
+      
+      <Blogfirstcontent />
+      <Blogsecondcontent />
     </div>
   );
 };
 
-export default blog;
+
+export default Blog;

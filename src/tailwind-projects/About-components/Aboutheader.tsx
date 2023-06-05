@@ -1,21 +1,14 @@
+import { HeaderLogo } from "../common-components/HeaderLogo"
+
 export const Aboutheader = () => {
   return (
     <div className="flex flex-col">
       <div className="p-8 pb-3 bg-[#0A2640]">
-        <div className="flex flex-row gap-1 translate-x-8">
-          <div className="flex flex-col gap-1 ">
-            <div className="bg-[#65E4A3] flex justify-start items-center rounded-r-full w-8  text-[#65E4A3] ">
-              h
-            </div>
-
-            <div className="bg-[#65E4A3] rounded-r-full w-10 text-[#65E4A3]   ">
-              h
-            </div>
-          </div>
-          <div className="text-[white] fonr-Manrope text-5xl font-normal  items-baseline">
-            Boldo
-          </div>
-        </div>
+        <HeaderLogo
+        logoColor="primary"
+        logoName="Boldo"
+        logoShape="Logoshapegreen.svg"
+        />
 
         <div className="gap-12 justify-end -translate-y-10  flex-row  text-[white] font-sans  text-base font-semibold flex items-center">
           <div className="">Product</div>

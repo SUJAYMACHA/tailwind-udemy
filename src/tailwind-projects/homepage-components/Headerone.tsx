@@ -1,3 +1,5 @@
+import { HeaderLogo } from "../common-components/HeaderLogo";
+
 <link
   href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap"
   rel="stylesheet"
@@ -11,20 +13,11 @@ export const Headerone = () => {
         className="relative bottom-8  opacity-95 bg-cover translate-x-96 left-96 ml-10  "
       />
       <div className="flex flex-row gap-16 relative right-96 -translate-x-64 bottom-48 ">
-        <div className="flex flex-row gap-1">
-          <div className="flex flex-col gap-1">
-            <div className="bg-[#65E4A3] flex justify-start items-center rounded-r-full w-8  text-[#65E4A3]  ">
-              h
-            </div>
-
-            <div className="bg-[#65E4A3] rounded-r-full w-10 text-[#65E4A3]   ">
-              h
-            </div>
-          </div>
-          <div className="text-white fonr-Manrope text-5xl font-normal  items-baseline">
-            Boldo
-          </div>
-        </div>
+      <HeaderLogo 
+      logoColor="primary"
+      logoName="Boldo"
+      logoShape="./Logoshapegreen.svg"
+      />
 
         <div className="gap-12  flex-row translate-x-96 relative left-60 text-white font-sans  text-base font-semibold flex items-center justify-center   ">
           <div className="">Product</div>
