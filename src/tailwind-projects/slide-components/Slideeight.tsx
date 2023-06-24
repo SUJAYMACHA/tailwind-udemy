@@ -6,7 +6,7 @@ export const Slideeight = () => {
   return (
 
   <div className=" flex flex-col">
-    <div className="p-20 border-2 border-black flex flex-row ">
+    <div className="p-20 border-black border-b-2  flex flex-row ">
       <div className="flex flex-col gap-16">
         <div className="text-4xl text-black flex font-bold">Get in touch</div>
         <div className=" flex flex-row gap-8">

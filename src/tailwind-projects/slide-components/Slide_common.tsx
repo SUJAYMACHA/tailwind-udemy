@@ -16,7 +16,7 @@ interface Slide_commonprops {
 
 export const Slide_common = (props: Slide_commonprops) => {
   return (
-    <div className="flex flex-col gap-6 items-start translate-x-16 justify-start ">
+    <div className="flex flex-col gap-8 items-start translate-x-16 justify-start ">
       <div className="gap-0">
         <div className="text-4xl text-black flex font-bold ">{props.title}</div>
         <div className="text-4xl text-black flex font-bold ">
@@ -25,7 +25,7 @@ export const Slide_common = (props: Slide_commonprops) => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center rounded-full bg-black text-white text-lg p-4 font-semibold hover:border hover:border-black hover:bg-white hover:text-black">
+      <div className="flex justify-center items-center rounded-full bg-black text-white text-lg p-4 font-semibold border-black border hover:bg-white hover:text-black">
         {props.button}
       </div>
       <div className="bg-[#EBEBEB] text-base w-96 text-black flex-wrap p-4 rounded-xl">
