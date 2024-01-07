@@ -20,7 +20,6 @@ import Slidefive from "./tailwind-projects/slide-components/Slidefive";
 import Slidesix from "./tailwind-projects/slide-components/Slidesix";
 import Slideseven from "./tailwind-projects/slide-components/Slideseven";
 import Slideeight from "./tailwind-projects/slide-components/Slideeight";
-
 import Slidenine from "./tailwind-projects/slide-components/Slidenine";
 import Slide from "./tailwind-projects/Slide";
 
@@ -56,6 +55,7 @@ export const router = createBrowserRouter([
       path: "/Slidefour",
       element: Slidefour(),
     },
+   
     {
       path: "/Slidefive",
       element: Slidefive(),
@@ -128,4 +128,5 @@ export const router = createBrowserRouter([
       path: "/product",
       element: product(),
     },
+  
 ]);

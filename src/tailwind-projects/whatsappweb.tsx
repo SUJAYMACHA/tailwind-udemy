@@ -1,12 +1,6 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Header } from "./whatsapp-components/Header";
-import { Card } from "./whatsapp-components/Card";
+// import { Card } from "./whatsapp-components/Card";
 <link
   href="https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap"
   rel="stylesheet"
@@ -30,18 +24,16 @@ const Whatsappweb = () => {
               </div>
             </div>
 
-            <div className=" text-lg flex flex-col ml-2 md:p-4 md:translate-y-20 -translate-x-28 translate-y-12 p-4 ">
-              <div className="tracking-tight ">
-                Stay connected on WhatsApp across your devices so,
+            <div className=" flex flex-col ml-2 md:p-2 md:translate-y-20 -translate-x-28 translate-y-12 p-4 ">
+              <div className="tracking-tight text-xl ">
+              Use WhatsApp across your devices.
               </div>
-              <div className="tracking-tight ">
-                you can pick up any conversation where you left off.
-              </div>
+ 
               <div className="flex flex-row tracking-tight ">
-                <div className="text-xs mt-8 flex">
+                <div className="text-xs mt-6 flex">
                   By installing WhatsApp, you agree to our{" "}
-                  <div className="underline">Terms</div> &{" "}
-                  <div className="underline"> Privacy Policy.</div>
+                  <div className="underline ml-1 mr-1">Terms</div> &
+                  <div className="underline ml-1"> Privacy Policy.</div>
                 </div>
               </div>
             </div>
@@ -64,7 +56,7 @@ const Whatsappweb = () => {
                 </button>
               </div> */}
 
-              <Card
+              {/* <Card
                 cardTitle="Mobile & Tablet"
                 os="Android"
                 description=" Minimum Requirements (Version 2.22.13.77) Android OS 4.0.3 or
@@ -85,7 +77,7 @@ const Whatsappweb = () => {
                 description=" Requires Windows 10 or newer. For all other operating systems,
                 you can use WhatsApp Web in your browser."
                 image="/images/microsoft.jpg"
-              />
+              /> */}
 
               {/* <div className="bg-[#111b21] p-8 rounded-3xl w-64 hover:bg-[#25d366] hover:text-black">
                 <h2 className="font-normal text-sm flex justify-center mb-2">
@@ -125,12 +117,26 @@ const Whatsappweb = () => {
                 </button>
               </div> */}
             </div>
-            <div className="text-black text-lg p-4 flex flex-wrap justify-center gap-1 ">
-              Visit <div className="underline"> whatsapp.com/dl</div> on your
-              mobile phone to install.
-            </div>
+           
           </div>
         </div>
+      </div>
+      <div className="lg:flex lg:pb-96 lg:flex-row">
+        <div>Already</div>
+        <div>Downloaded?</div>
+      </div>
+      <div className="lg:flex lg:flex-row">
+        <div>Already</div>
+        <div>Downloaded?</div>
+      </div>
+
+      <div className="lg:flex lg:flex-row">
+        <div>Already</div>
+        <div>Downloaded?</div>
+      </div>
+      <div className="lg:flex lg:flex-row">
+        <div>Already</div>
+        <div>Downloaded?</div>
       </div>
       <div className="lg:flex lg:flex-row">
         <div>Already</div>

@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Slide_bottom from "./Slide_bottom";
 
+
 export const Slideeight = () => {
   return (
 
@@ -24,10 +25,12 @@ export const Slideeight = () => {
 
             <div className="text-black text-lg gap-0">
               <div className="">Website:</div>
+            
               <div className=" font-bold">www.instagram.com</div>
             </div>
             <div className="text-black text-lg gap-0">
               <div className="">Email:</div>
+              
               <div className=" font-bold">hey@instagram.com</div>
             </div>
           </div>

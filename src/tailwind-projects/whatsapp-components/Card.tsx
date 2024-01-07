@@ -20,7 +20,7 @@ export const Card = (props: Cardprops) => {
         <Text text={props.description} type="small" side={4} />
       </div>
       <button>
-        <img src={props.image} className=" h-16"></img>
+        <img src={props.image} alt="" className=" h-16"></img>
       </button>
     </div>
   );

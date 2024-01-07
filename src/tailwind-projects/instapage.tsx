@@ -7,8 +7,7 @@ const instapage = () => {
         {" "}
         <div className="flex flex-row justify-around">
           <div className="columns-2 gap-4 m-10 pr-50 pl-50 flex flex-row justify-center ">
-            <img src="/images/screenshot4.jpg" className="w-56 h-100" />
-            <img src="/images/screenshot1.jpg" className="w-56 h-100" />
+          
             <div className="third flex flex-none flex-col">
               <div className="border text-black text-center w-80 h-80 flex flex-col  items-center m-3 border-black">
                 <div className="m-10 italic pl-10 pr-10">INSTAGRAM</div>
@@ -57,8 +56,7 @@ const instapage = () => {
                 </div>
               </button>
               <div className="pics h-22 w-32 flex flex-row ml-2 columns-2 gap-10">
-                <img src="/images/ss2.jpg"></img>
-                <img src="/images/ss3.jpg"></img>
+             
               </div>
             </div>
           </div>
