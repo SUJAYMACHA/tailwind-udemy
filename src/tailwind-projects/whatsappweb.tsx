@@ -120,6 +120,7 @@ const Whatsappweb = () => {
            
           </div>
         </div>
+        
       </div>
       <div className="lg:flex lg:pb-96 lg:flex-row">
         <div>Already</div>
