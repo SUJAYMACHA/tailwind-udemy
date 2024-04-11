@@ -28,6 +28,7 @@ const Whatsappweb = () => {
               <div className="tracking-tight text-xl ">
               Use WhatsApp across your devices.
               </div>
+              
  
               <div className="flex flex-row tracking-tight ">
                 <div className="text-xs mt-6 flex">
@@ -125,6 +126,7 @@ const Whatsappweb = () => {
       <div className="lg:flex lg:pb-96 lg:flex-row">
         <div>Already</div>
         <div>Downloaded?</div>
+        <div>welcome back champ!</div>
       </div>
       
     </div>
