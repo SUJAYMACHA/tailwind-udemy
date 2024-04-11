@@ -126,7 +126,7 @@ const Whatsappweb = () => {
       <div className="lg:flex lg:pb-96 lg:flex-row">
         <div>Already</div>
         <div>Downloaded?</div>
-        <div>welcome back champ!</div>
+ 
       </div>
       
     </div>

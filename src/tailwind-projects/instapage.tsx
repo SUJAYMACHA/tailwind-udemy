@@ -1,66 +1,81 @@
 import React from "react";
 
-const instapage = () => {
+// CSS for Cedarville Cursive font
+
+const Instapage = () => {
   return (
     <div>
-      <div className="bg-black text-white sm:bg-yellow-300 lg:bg-white h-screen w-screen">
-        {" "}
-        <div className="flex flex-row justify-around">
-          <div className="columns-2 gap-4 m-10 pr-50 pl-50 flex flex-row justify-center ">
-            <img src="/images/screenshot4.jpg" className="w-56 h-100" />
-            <img src="/images/screenshot1.jpg" className="w-56 h-100" />
-            <div className="third flex flex-none flex-col">
-              <div className="border text-black text-center w-80 h-80 flex flex-col  items-center m-3 border-black">
-                <div className="m-10 italic pl-10 pr-10">INSTAGRAM</div>
-                <div className="box flex flex-col gap-1">
+      {/* Note: Fonts are typically imported in the HTML file, not in React components */}
+      <div className="text-white border-2 border-black lg:bg-white h-screen w-screen">
+        <div className="flex flex-row justify-around ">
+          <div className="columns-2 gap-4 m-10  pl-50 border border-slate-300 flex flex-row justify-center  ">
+            <img
+              src="/images/screenshot4.jpg"
+              className="w-56 h-100 hidden sm:block"
+              alt=""
+            />
+            <img
+              src="/images/screenshot1.jpg"
+              className="w-56 h-100 hidden sm:block"
+              alt=""
+            />
+            <div className=" flex  flex-col">
+              <div className="border-b text-black text-center w-80 h-auto flex flex-col  items-center m-3 border-[#dbdbdb]">
+                <img src="/images/insta-pic.jpg" className=" " alt="" />
+                <div style={{ position: "relative" }}>
                   <input
-                    className="border border-slate-300 "
-                    placeholder="username"
+                    className="border p-2 pt-3 bg-[#fafafa] pb-2 w-72 text-sm text-[#373737]  border-slate-300  "
+                    placeholder="Phone number, username, or email"
+                    type="text"
                   />
+
                   <input
-                    className="border border-slate-300 "
-                    placeholder="password"
+                    className="border mt-2 pt-3 bg-[#fafafa] pb-2 p-2 w-72 mb-4 text-sm text-[#373737] border-slate-300"
+                    placeholder="Password"
                     type="password"
                   />
-                  <button>
-                    {" "}
-                    <div className="flex flex-row text-black justify-end hover:bg-white">
+                  <button
+                    style={{
+                      position: "absolute",
+                      right: "25px",
+                      top: "50%",
+                      transform: "translateY(20%)",
+                    }}
+                  >
+                    <div className="flex flex-row text-[#00376b]   font-semibold justify-end ">
                       show
-                    </div>{" "}
-                  </button>
-                  <button>
-                    {" "}
-                    <div className="border border-sky-400 rounded-md bg-sky-400 hover:bg-white text-black">
-                      {" "}
-                      LogIn
                     </div>
                   </button>
                 </div>
-                <button>
-                  {" "}
-                  <div className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mt-3 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                    {" "}
-                    sign-up{" "}
-                  </div>{" "}
-                </button>
-                <button>
-                  {" "}
-                  <div className="text-black m-3">Forgotten password?</div>
-                </button>
-              </div>
 
-              <button>
-                {" "}
-                <div className="border text-center w-80 h-10 flex flex-col items-center m-3 text-sky-400 border-black">
-                  {" "}
-                  get the app
-                </div>
-              </button>
-              <div className="pics h-22 w-32 flex flex-row ml-2 columns-2 gap-10">
-                <img src="/images/ss2.jpg"></img>
-                <img src="/images/ss3.jpg"></img>
+                <button>
+                  <div className="border border-sky-400 mb-8 mt-2 pt-1 text-bold  pb-1 p-2 w-72 rounded-md bg-sky-500 hover:bg-[#1877f2] text-white">
+                    Log in
+                  </div>
+                </button>
               </div>
+              <div className="flex flex-col gap-2 justify-center items-center">
+                <div className="flex gap-1 flex-row justify-center items-center ">
+                  <img
+                    src="/images/fb-logo.jpg"
+                    className="w-8 h-8 cursor-pointer"
+                    alt=""
+                  />
+                  <div className="text-[#385185] font-semibold text-medium text-medium cursor-pointer">
+                    Log in with Facebook
+                  </div>
+                </div>
+                <div className="text-[#00376b] pb-4 text-sm">Forgot Password?</div>
+                <div className="text-black text-sm border justify-center items-center p-4">
+                <div className=" w-64 translate-x-7">
+                  Dont have an account?{" "}
+                  <span className="text-[#4cb5f9] font-semibold">Sign up</span>
+                </div>
+                </div></div>
+                
+              
             </div>
+            <div className="text-black text-sm ">Get the app.</div>
           </div>
         </div>
       </div>
@@ -68,4 +83,4 @@ const instapage = () => {
   );
 };
 
-export default instapage;
+export default Instapage;
